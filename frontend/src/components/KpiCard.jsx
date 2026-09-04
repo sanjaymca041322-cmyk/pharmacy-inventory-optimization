@@ -1,0 +1,1 @@
+export default function KpiCard({title,value,subtitle}){return <div className="card kpi"><div className="muted">{title}</div><div className="kpiValue">{value}</div><div className="muted">{subtitle}</div></div>}
